@@ -1,0 +1,5 @@
+chromadb
+sentence-transformers
+rank_bm25
+numpy
+groq

@@ -1,0 +1,30 @@
+[
+  {
+    "strategy": "1. fixed chunks + vector",
+    "hit@3": 0.6666666666666666,
+    "MRR@10": 0.5,
+    "latency_ms": 192.14963912963867,
+    "chunks": 1156
+  },
+  {
+    "strategy": "2. heading chunks + vector",
+    "hit@3": 0.6666666666666666,
+    "MRR@10": 0.6666666666666666,
+    "latency_ms": 13.628721237182617,
+    "chunks": 2395
+  },
+  {
+    "strategy": "3. heading chunks + hybrid",
+    "hit@3": 0.6666666666666666,
+    "MRR@10": 0.5,
+    "latency_ms": 13.846397399902344,
+    "chunks": 2395
+  },
+  {
+    "strategy": "4. heading + hybrid + rerank",
+    "hit@3": 0.6666666666666666,
+    "MRR@10": 0.6666666666666666,
+    "latency_ms": 5208.100001017253,
+    "chunks": 2395
+  }
+]
